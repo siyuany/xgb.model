@@ -1,0 +1,14 @@
+Package: xgb.model
+Type: Package
+Title: Building XGBoost Model with Automatically Tuning
+Version: 0.1.0
+Author: Yao Siyuan <siyuan.yao@gmail.com>
+Maintainer: Yao Siyuan <siyuan.yao@gmail.com>
+Description: With the package \code{mlr}, the package provide functions automatically tuning
+  XGBoost model and generating final codes for 
+Depends: mlr
+Imports: parallel
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
