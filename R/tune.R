@@ -32,7 +32,7 @@ tune <- function(data, target, cv.folds = 10,
                                     reps = cv.rep,
                                     stratify = stratified)
 
-  n_obs <- nrow(data)
+  # n_obs <- nrow(data)
   # number of observations in minority class
   minor_num <- min(table(data[, target]))
 

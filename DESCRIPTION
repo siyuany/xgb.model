@@ -6,7 +6,7 @@ Author: Yao Siyuan <siyuan.yao@gmail.com>
 Maintainer: Yao Siyuan <siyuan.yao@gmail.com>
 Description: With the package \code{mlr}, the package provide functions automatically tuning
   XGBoost model and generating final codes for 
-Depends: mlr
+Depends: mlr (>= 2.11), xgboost (>= 0.6-4)
 Imports: parallel
 License: GPL-2
 Encoding: UTF-8
